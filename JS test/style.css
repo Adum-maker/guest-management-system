@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.logo-and-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+
+.logo-and-title img {
+    max-width: 150px;
+    height: auto;
+    padding-left: 100px;
+}
+
+.logo-and-title h3 {
+    font-size: 15px;
+    padding-right: 120px;
+}
+
+
+.custom-fieldset {
+    display: block;
+    margin: 20px;
+    padding: 20px 50px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form {
+    margin: 20px;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 .25em;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.guest-list {
+    margin: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.future-departure {
+    background-color: whitesmoke;
+}
+
+.overstayed {
+    background-color: red;
+}

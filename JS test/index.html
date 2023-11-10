@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loropio Beach Resort Guest List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset class="custom-fieldset">
+        <fieldset class="custom-fieldset">
+            <div class="logo-and-title">
+                <img src="img/logo1.png" alt="Your Logo">
+                <h3>Loropio Beach Resort Registration</h3>
+            </div>
+            </div>
+            <div class="form">
+                <h4>New Guest</h4>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName">
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName">
+
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" id="dateOfBirth">
+
+                <label for="country">Country of Origin:</label>
+                <input type="text" id="country">
+
+                <label for="roomNumber">Room Number:</label>
+                <input type="number" id="roomNumber">
+
+                <label for="arrivalDate">Arrival Date:</label>
+                <input type="date" id="arrivalDate">
+
+                <label for="departureDate">Departure Date:</label>
+                <input type="date" id="departureDate">
+
+                <button onclick="addGuest()">Add Guest</button>
+                <button onclick="highlightDepartures()">Check</button>
+            </div>
+        </fieldset>
+
+
+
+        <h4>Guests List</h4>
+        <fieldset class="custom-fieldset">
+            <div class="guest-list">
+                <table id="guestTable">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date of Birth</th>
+                        <th>Country</th>
+                        <th>Room Number</th>
+                        <th>Arrival Date</th>
+                        <th>Departure Date</th>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+
+    </fieldset>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
